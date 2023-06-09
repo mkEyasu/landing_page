@@ -1,0 +1,69 @@
+// @ts-nocheck
+
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@components/*": ["./src/components/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"],
+  "noImplicitAny": false,
+  "noImplicitThis": false,
+  "allowSyntheticDefaultImports": true,
+  "allowUnreachableCode": false,
+  "allowUnusedLabels": false,
+  "skipDefaultLibCheck": true,
+  "skipLibCheck": true,
+  "noEmitHelpers": true,
+  "noEmitOnError": true,
+  "preserveConstEnums": true,
+  "noImplicitUseStrict": false,
+  "noStrictGenericChecks": false,
+  "strictNullChecks": false,
+  "strictFunctionTypes": false,
+  "strictPropertyInitialization": false,
+  "noImplicitReturns": false,
+  "noFallthroughCasesInSwitch": false,
+  "noUncheckedIndexedAccess": false,
+  "noImplicitOverride": false,
+  "noPropertyAccessFromIndexSignature": false,
+  "noImplicitlyTypedAny": false,
+  "noImplicitAnyIndexAccess": false,
+  "noImplicitlyTypedObjectLiterals": false,
+  "noImplicitlyTypedFunctionTypes": false,
+  "noImplicitlyTypedExports": false,
+  "noImplicitlyTypedJsx": false,
+  "noImplicitlyTypedModuleAttributes": false,
+  "noImplicitlyTypedModuleExports": false,
+  "noImplicitlyTypedModuleImports": false,
+  "noImplicitlyTypedModuleAugments": false,
+  "noImplicitlyTypedModuleDeclarations": false,
+  "noImplicitlyTypedModuleAssignments": false,
+  "noImplicitlyTypedModuleCalls": false,
+  "noImplicitlyTypedModuleGenerics": false,
+  "noImplicitlyTypedModuleTemplates": false,
+  "noImplicitlyTypedModuleDestructuring": false,
+  "noImplicitlyTypedModulePiping": false,
+  "noImplicitlyTypedModuleComparisons": false,
+  "noImplicitlyTypedModuleLiterals": false
+}
